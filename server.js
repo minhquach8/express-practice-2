@@ -8,8 +8,8 @@ const DB = process.env.DATABASE.replace(
 );
 
 mongoose
-	// .connect(DB)
-	.connect(process.env.DATABASE_LOCAL)
+	.connect(DB)
+	// .connect(process.env.DATABASE_LOCAL)
 	.then(() => {
 		console.log("DB connected!");
 	});

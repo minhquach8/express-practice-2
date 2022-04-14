@@ -1,0 +1,22 @@
+{
+	"name": "expresss-practice-2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"start:prod": "SET NODE_ENV=production  & nodemon server.js"
+	},
+	"keywords": [],
+	"author": "Minh Quach",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"mongoose": "^6.2.11",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
